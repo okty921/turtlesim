@@ -1,0 +1,8 @@
+turtle_spawner_node:
+    ros_parameters:
+        spawn_frequency: 0.5
+        turtle_name_prefix: "my_turtle"
+
+turtle_controller_node:
+    ros_parameters:
+        catch_closest_turtle_first: True  
